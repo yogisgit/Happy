@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T01:00:31 IST" name="Suite" finished-at="2022-06-12T01:00:37 IST" duration-ms="5859">
+    <groups>
+    </groups>
+    <test started-at="2022-06-12T01:00:31 IST" name="Test" finished-at="2022-06-12T01:00:37 IST" duration-ms="5859">
+      <class name="com.happy.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:31 IST" name="setUp" finished-at="2022-06-12T01:00:35 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,int)[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:36 IST" name="login" data-provider="getData" finished-at="2022-06-12T01:00:37 IST" duration-ms="932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1237]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:37 IST" name="teardown" finished-at="2022-06-12T01:00:37 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.happy.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
