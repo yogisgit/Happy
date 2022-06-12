@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.happy.reports.ReportClass;
 
-public class ListenerNew implements ITestListener {
+public class ListenerClass implements ITestListener {
 	ExtentReports extent;
 	ExtentTest test;
 	public void onTestStart(ITestResult result) {
