@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-12T01:00:31 IST" name="Suite" finished-at="2022-06-12T01:00:37 IST" duration-ms="5859">
+  <suite started-at="2022-06-12T10:51:20 IST" name="Default suite" finished-at="2022-06-12T10:51:27 IST" duration-ms="6688">
     <groups>
     </groups>
-    <test started-at="2022-06-12T01:00:31 IST" name="Test" finished-at="2022-06-12T01:00:37 IST" duration-ms="5859">
+    <test started-at="2022-06-12T10:51:20 IST" name="Default test" finished-at="2022-06-12T10:51:27 IST" duration-ms="6688">
       <class name="com.happy.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:31 IST" name="setUp" finished-at="2022-06-12T01:00:35 IST" duration-ms="4004" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.happy.tests.HomePageTest@2c1b194a]" started-at="2022-06-12T10:51:20 IST" name="setUp" finished-at="2022-06-12T10:51:25 IST" duration-ms="4905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String,int)[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:36 IST" name="login" data-provider="getData" finished-at="2022-06-12T01:00:37 IST" duration-ms="932" status="PASS">
+        <test-method signature="login(java.lang.String,int)[pri:0, instance:com.happy.tests.HomePageTest@2c1b194a]" started-at="2022-06-12T10:51:26 IST" name="login" data-provider="getData" finished-at="2022-06-12T10:51:27 IST" duration-ms="865" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.happy.tests.HomePageTest@32502377]" started-at="2022-06-12T01:00:37 IST" name="teardown" finished-at="2022-06-12T01:00:37 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.happy.tests.HomePageTest@2c1b194a]" started-at="2022-06-12T10:51:27 IST" name="teardown" finished-at="2022-06-12T10:51:27 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.happy.tests.HomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,11 +1,15 @@
 package com.happy.base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -26,5 +30,14 @@ public class BasePage {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 		
 		return driver;
+	}
+	public String takeScreenshot(String testcaseName, WebDriver driver) throws IOException {
+		
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		String path = System.getProperty("user.dir")+"/reports/"+testcaseName+".png";
+		FileUtils.copyFile(src, new File(path));
+		return path;
+		 
 	}
 }
