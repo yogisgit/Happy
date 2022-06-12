@@ -15,6 +15,14 @@
   </properties>
   
   <build>
+  
+  <resources>
+  <resource>
+        <directory>src/main/com/happy/util/</directory>
+        <filtering>true</filtering>
+      </resource>
+  </resources>
+  
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
 
@@ -53,7 +61,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.5</version>
+    <version>7.4.0</version>
     <scope>test</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
