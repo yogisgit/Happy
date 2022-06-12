@@ -4,14 +4,12 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.aventstack.extentreports.ExtentReporter;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.happy.reports.ReportClass;
 
-public class Listener implements ITestListener{
-
+public class ListenerNew implements ITestListener {
 	ExtentReports extent;
 	ExtentTest test;
 	public void onTestStart(ITestResult result) {
@@ -43,5 +41,4 @@ public class Listener implements ITestListener{
 	public void onFinish(ITestContext context) {
 		extent.flush();
 	}
-
 }

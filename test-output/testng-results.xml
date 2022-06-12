@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-12T11:03:30 IST" name="Default suite" finished-at="2022-06-12T11:03:37 IST" duration-ms="6880">
+  <suite started-at="2022-06-12T14:17:47 IST" name="Suite" finished-at="2022-06-12T14:17:54 IST" duration-ms="7321">
     <groups>
     </groups>
-    <test started-at="2022-06-12T11:03:30 IST" name="Default test" finished-at="2022-06-12T11:03:37 IST" duration-ms="6880">
+    <test started-at="2022-06-12T14:17:47 IST" name="Test" finished-at="2022-06-12T14:17:54 IST" duration-ms="7321">
       <class name="com.happy.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.happy.tests.HomePageTest@957e06]" started-at="2022-06-12T11:03:30 IST" name="setUp" finished-at="2022-06-12T11:03:35 IST" duration-ms="5158" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.happy.tests.HomePageTest@437da279]" started-at="2022-06-12T14:17:47 IST" name="setUp" finished-at="2022-06-12T14:17:52 IST" duration-ms="5253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String,int)[pri:0, instance:com.happy.tests.HomePageTest@957e06]" started-at="2022-06-12T11:03:36 IST" name="login" data-provider="getData" finished-at="2022-06-12T11:03:36 IST" duration-ms="816" status="PASS">
+        <test-method signature="login(java.lang.String,int)[pri:0, instance:com.happy.tests.HomePageTest@437da279]" started-at="2022-06-12T14:17:53 IST" name="login" data-provider="getData" finished-at="2022-06-12T14:17:54 IST" duration-ms="995" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[hello@gmail.com]]>
+                <![CDATA[hello3@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1234]]>
+                <![CDATA[1237]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.happy.tests.HomePageTest@957e06]" started-at="2022-06-12T11:03:36 IST" name="teardown" finished-at="2022-06-12T11:03:37 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.happy.tests.HomePageTest@437da279]" started-at="2022-06-12T14:17:54 IST" name="teardown" finished-at="2022-06-12T14:17:54 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.happy.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
